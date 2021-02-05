@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    string phrase = "Giraffe Academy";
+    phrase[0] = 'B'; // assim pode-se mudar caractéres específicos
+    cout << phrase << endl; // [] puxa um caractere especifico, string.length diz quantos caracteres tem.
+    cout << phrase.find("Academy", 0) << endl; // Procura por algo, a partir de x caractere
+    cout << phrase.substr(8, 3) << endl;  // Primeiro pede a posição inicial, depois o tamanho
+
+
+
+
+    return 0;
+}
