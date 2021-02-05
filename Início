@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+// Quando não se usa variáveis chama-se constante.
+    char grade = 'A'; // Aspas símples.
+    string phrase = "Giraffe Academy"; // Aspas duplas.
+    int age = 50; // Não precisa de aspas ----> números inteiros
+    double gpa = 2.3; // Mais preciso que float, se preocupar mais com esse
+    bool isMale = true; // Verdadeiro ou falso ----> importante.
+
+
+
+    return 0;
+}
