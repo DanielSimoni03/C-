@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-// o que fizemos acima foi trazer uma biblioteca a mais, cmath.
+// o que fizemos acima foi trazer uma biblioteca a mais, cmath, que se trata de uma biblioteca com funções extras relacionadas a matemática, como podemos ver a partir da linha 38
 using namespace std;
 
 int main()
@@ -8,30 +8,36 @@ int main()
     // podemos  printar qualquer número
 //    cout << -40.0283 << endl;
 
+/*
     // podemos fazer contas matemáticas
-//    cout << 5 + 7 << endl;
-//    cout << 5 - 7 << endl;
-//    cout << 5 / 7 << endl;
-//    cout << 5 * 7 << endl;
+    cout << 5 + 7 << endl;  //Soma
+    cout << 5 - 7 << endl;  //Subtração
+    cout << 5 / 7 << endl;  //Divisão
+    cout << 5 * 7 << endl;  //Multiplicação
+*/
 
-    // uma função especial é a de módulo, ela dá o resto de uma divisão
-//    cout << 10 % 3 << endl; -----> resulta em 1 pois 10/3 = 3 com 1 de resto.
-//    cout << (4 + 5) * 10  ----> segue regras padrões matemáticas
+/* uma função especial é a de módulo, ela dá o resto de uma divisão
+    cout << 10 % 3 << endl; //-----> resulta em 1 pois 10/3 = 3 com 1 de resto.
+    cout << (4 + 5) * 10  //----> segue regras padrões matemáticas
+  */
 
-/*int wnum = 5;
-double dnum = 5.5;
+/*
+    int wnum = 5;
+    double dnum = 5.5;
 
-wnum++;  //-----> esse ++ adiciona 1 ao valor 5 de wnum, resultando em 6 como mostrado no cout
-wnum --; //------> tira 1
-wnum += 80 //----> wnum +80, funciona com todas as operações básicas, + - * /
-cout << wnum;  */
+    wnum++;  //-----> esse ++ adiciona 1 ao valor 5 de wnum, resultando em 6 como mostrado no cout
+    wnum --; //------> tira 1
+    wnum += 80 //----> wnum +80, funciona com todas as operações básicas, + - * /
+    cout << wnum;  */
 
-/*cout << 5.5 + 9; // sempre resulta em um valor double/float.
-cout << 10 / 3; // sempre resulta em valor integral. */
+/*
+    cout << 5.5 + 9; // sempre resulta em um valor double/float.
+    cout << 10 / 3; // sempre resulta em valor integral. */
 
 
 //com a biblioteca cmath podemos fazer coisas diferentes como potências
-/*    cout << pow(2,5);  // 2 elevado a 5
+/*
+    cout << pow(2,5);  // 2 elevado a 5
     cout << sqrt(36); // raiz quadrada de 36
     cout << round(4,6); // arredonda para o valor mais próximo, função ceil arredonda pra cima, função floor arredonda pra baixo.
     cout << fmax(3, 10); // fmax mostra qual dos dois números é maior, fmin faz o contrário. */
